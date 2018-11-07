@@ -11,20 +11,11 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+// main page
+Route::get('/', 'FormController@index');
 
-//Route::get('/order', function () {
-////    return 'form is working';
-//    return ($_GET);
-//});
+// form validation
+Route::get('form', 'FormController@searchProcess');
 
-Route::get('/', 'FormController@index'); # <-- NEW 1 of 2
-Route::get('form', 'FormController@searchProcess'); # <-- NEW 2 of 2
-Route::get('order', 'OrderController@index'); # <-- NEW 2 of 2
-
-
-//Route::get('orderpage', function () {
-//    return view('order');
-//});
+// order page
+Route::get('order', 'OrderController@index');

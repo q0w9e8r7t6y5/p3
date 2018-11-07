@@ -7,33 +7,17 @@
     <h1>Registration</h1>
 
 
-        @if(count($errors) > 0)
-            <div class='alert alert-danger' role='alert'>
+    @if(count($errors) > 0)
+        <div class='alert alert-danger' role='alert'>
 
             <ul>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
                 @endforeach
             </ul>
-            </div>
+        </div>
 
-        @endif
-
-
-    {{--<form method='GET' action='order'>--}}
-
-        {{--<fieldset>--}}
-            {{--<label for='searchTerm'>Search by title:</label>--}}
-            {{--<input type='text' name='searchTerm' id='searchTerm'>--}}
-
-            {{--<input type='checkbox' name='caseSensitive'>--}}
-            {{--<label>case sensitive</label>--}}
-        {{--</fieldset>--}}
-
-        {{--<input type='submit' value='Search' class='btn btn-primary'>--}}
-
-    {{--</form>--}}
-
+    @endif
 
     <form method='get' action='form'>
         <fieldset id="$request">

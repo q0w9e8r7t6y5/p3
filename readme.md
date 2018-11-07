@@ -23,3 +23,7 @@
 
 
 https://www.youtube.com/watch?v=qBtujLPbNas
+https://stackoverflow.com/questions/41559163/header-may-not-contain-more-than-a-single-header-new-line-detected-on-return-vi
+https://stackoverflow.com/questions/24389726/laravel-redirecting-user-to-another-page-with-messages
+https://laravel.io/forum/11-28-2014-how-to-use-return-redirect-inside-view
+https://laravel.io/forum/12-11-2015-how-to-implement-laravel-request-validation

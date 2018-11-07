@@ -128,6 +128,63 @@
 
     <?php dump($_GET); ?>
 
+<!--    --><?php //print_r($_GET); ?>
+
+<!--    --><?php
+//
+//    $type = $_GET['type'] ?? null;
+//    $fill = $_GET['fill'] ?? null;
+//
+//    echo 'Type:'. $type;
+//    echo 'Fill:'. $fill; ?>
+
+    <?php if ($_GET) : ?>
+    <br>
+    <div class='alert alert-info' role='alert'>
+        <h5>Your order has been submitted!</h5>
+
+        <?php $type = $_GET['type'] ?? null;
+        $fill = $_GET['fill'] ?? null;
+        ?>
+
+        <h6>Order Details</h6>
+
+        <table>
+            <tr>
+                <td>Type:</td>
+                <td><?= ucwords($type) ?></td>
+            </tr>
+            <tr>
+                <td>Fill Selection:</td>
+                <td><?= ucwords($fill) ?></td>
+            </tr>
+        </table>
+
+    </div>
+    <?php endif; ?>
+
+    <?php
+
+//    $toppings = $_GET['toppings'] ?? null;
+//
+//    if ($submitted and $toppings) {
+//        foreach ($topping as $toppings) {
+//            $results .= $toppings . ' ';
+//        }
+//    }
+//    if (empty($toppings)) {
+//        return $commaList = 'None';
+//    } else {
+//        return $commaList = implode(', ', $toppings);
+//    }
+//
+//    echo 'toppings:'.$toppings;
+//
+//        ?>
+
+
+
+
     {{--<form method="post">--}}
         {{--Example value: <input name="example" type="text" />--}}
         {{--Example value 2: <input name="example2" type="text" />--}}

@@ -1,96 +1,51 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('master')
 
-        <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+@section('content')
+    <h6><b>Please enter in your information and press submit to continue to the order page</b></h6><br>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <h1>Registration</h1>
 
-            .full-height {
-                height: 100vh;
-            }
+    @if(count($errors) > 0)
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    @endif
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+    {{--<form method='GET' action='order'>--}}
 
-            .position-ref {
-                position: relative;
-            }
+        {{--<fieldset>--}}
+            {{--<label for='searchTerm'>Search by title:</label>--}}
+            {{--<input type='text' name='searchTerm' id='searchTerm'>--}}
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+            {{--<input type='checkbox' name='caseSensitive'>--}}
+            {{--<label>case sensitive</label>--}}
+        {{--</fieldset>--}}
 
-            .content {
-                text-align: center;
-            }
+        {{--<input type='submit' value='Search' class='btn btn-primary'>--}}
 
-            .title {
-                font-size: 84px;
-            }
+    {{--</form>--}}
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+    <form method='GET' action='order'>
+        <fieldset id="$request">
+            <h5>Customer Information</h5>
+            <label for='email'>Email:</label>
+            <input type='text' name='email' id='email' value=''><br>
+            <label for='firstname'>First Name:</label>
+            <input type='text' name='firstname' id='firstname' value=''><br>
+            <label for='lastname'>Last Name:</label>
+            <input type='text' name='lastname' id='lastname' value=''><br>
+            <label for='phone'>Phone Number:</label>
+            <input type='text' name='phone' id='phone' value=''><br>
+        </fieldset>
+        <br>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+        <input type="submit" value="Submit">
+    </form>
+
+
+@endsection

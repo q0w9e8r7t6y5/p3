@@ -175,17 +175,31 @@
                 <td> <?php if (!$toppings) {
                      echo "None";
                      } else {
-                        echo join(', ', $toppings);
-                        ;
+                        echo ucwords(join(', ', $toppings));
                      }
-
                      ?>
                 </td>
             </tr>
-
                 <tr>
                 <td>Add'l Comments:</td>
                 <td><?= ucwords($comment) ?></td>
+            </tr>
+            <tr>
+                <td>Total (with tax):</td>
+                <td><?php echo "test"; ?></td>
+            </tr>
+            <tr>
+                <td>Total (with tax):</td>
+                <td>
+
+                <?php if ($fill == "sofritas") {
+                    echo "$6.50";
+                    } else {
+                    echo "$7.95";
+                    }
+                    ?>
+
+                </td>
             </tr>
        </table>
 

@@ -62,7 +62,9 @@ class FormController extends Controller
             'phone' => 'required|digits:10',
         ]);
 
-        redirect('/order');
+//        return (view('order'));
+
+        return redirect()->action('OrderController@index');
 
 //        if ($validator->fails()) {
 //            return view('welcome')->withErrors($validator); // <----- Send the validator here

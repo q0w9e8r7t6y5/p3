@@ -7,8 +7,9 @@
         Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press submit to confirm your order!</b>
     </h6>
 
-    <form method='GET'>
+    <form method='get'>
         <fieldset class='type'>
+
             <h5>Type</h5>
             <input type='radio'
                    name='type'
@@ -125,20 +126,19 @@
 
     </form>
 
-    <?php print_r($_GET); ?>
+    <?php dump($_GET); ?>
 
+    {{--<form method="post">--}}
+        {{--Example value: <input name="example" type="text" />--}}
+        {{--Example value 2: <input name="example2" type="text" />--}}
+        {{--<input name="submit" type="submit" />--}}
+    {{--</form>--}}
 
-    <form method="post">
-        Example value: <input name="example" type="text" />
-        Example value 2: <input name="example2" type="text" />
-        <input name="submit" type="submit" />
-    </form>
-
-    <?php
-    if (isset($_POST['submit'])) {
-        $example = $_POST['example'];
-        $example2 = $_POST['example2'];
-        echo $example . " " . $example2;
-    }
-    ?>
+    {{--<?php--}}
+    {{--if (isset($_POST['submit'])) {--}}
+        {{--$example = $_POST['example'];--}}
+        {{--$example2 = $_POST['example2'];--}}
+        {{--echo $example . " " . $example2;--}}
+    {{--}--}}
+    {{--?>--}}
 @endsection

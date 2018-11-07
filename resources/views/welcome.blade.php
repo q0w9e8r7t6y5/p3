@@ -38,6 +38,7 @@
     <form method='get' action='form'>
         <fieldset id="$request">
             <h5>Customer Information</h5>
+
             <label for='email'>Email:</label>
             <input type='text' name='email' id='email' value='{{ old('email') }}'><br>
             <label for='firstname'>First Name:</label>

@@ -6,13 +6,19 @@
 
     <h1>Registration</h1>
 
-    @if(count($errors) > 0)
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    @endif
+
+        @if(count($errors) > 0)
+            <div class='alert alert-danger' role='alert'>
+
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+            </div>
+
+        @endif
+
 
     {{--<form method='GET' action='order'>--}}
 
@@ -29,7 +35,7 @@
     {{--</form>--}}
 
 
-    <form method='GET' action='order'>
+    <form method='get' action='form'>
         <fieldset id="$request">
             <h5>Customer Information</h5>
             <label for='email'>Email:</label>

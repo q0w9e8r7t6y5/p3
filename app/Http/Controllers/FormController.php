@@ -8,9 +8,10 @@ use Illuminate\Http\Request;
 
 class FormController extends Controller
 {
-    public function search()
+    public function index()
     {
         return view('welcome');
+
     }
 
     /**
@@ -61,7 +62,7 @@ class FormController extends Controller
             'phone' => 'required|digits:10',
         ]);
 
-        return view('order');
+        redirect('/order');
 
 //        if ($validator->fails()) {
 //            return view('welcome')->withErrors($validator); // <----- Send the validator here

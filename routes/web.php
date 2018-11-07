@@ -23,3 +23,6 @@ Route::get('/', function () {
 Route::get('/', 'FormController@search'); # <-- NEW 1 of 2
 Route::get('order', 'FormController@searchProcess'); # <-- NEW 2 of 2
 
+Route::get('orderpage', function () {
+    return view('order');
+});

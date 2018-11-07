@@ -29,18 +29,17 @@
     {{--</form>--}}
 
 
-
     <form method='GET' action='order'>
         <fieldset id="$request">
             <h5>Customer Information</h5>
             <label for='email'>Email:</label>
-            <input type='text' name='email' id='email' value=''><br>
+            <input type='text' name='email' id='email' value='{{ old('email') }}'><br>
             <label for='firstname'>First Name:</label>
-            <input type='text' name='firstname' id='firstname' value=''><br>
+            <input type='text' name='firstname' id='firstname' value='{{ old('firstname') }}'><br>
             <label for='lastname'>Last Name:</label>
-            <input type='text' name='lastname' id='lastname' value=''><br>
+            <input type='text' name='lastname' id='lastname' value='{{ old('lastname') }}'><br>
             <label for='phone'>Phone Number:</label>
-            <input type='text' name='phone' id='phone' value=''><br>
+            <input type='text' name='phone' id='phone' value='{{ old('phone') }}'><br>
         </fieldset>
         <br>
 

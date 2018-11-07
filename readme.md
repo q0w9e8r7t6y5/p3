@@ -29,3 +29,4 @@ https://laravel.io/forum/11-28-2014-how-to-use-return-redirect-inside-view
 https://laravel.io/forum/12-11-2015-how-to-implement-laravel-request-validation
 https://stackoverflow.com/questions/51305825/how-to-pass-a-variable-from-one-controller-to-another-laravel
 https://stackoverflow.com/questions/14595810/use-post-to-get-input-values-on-the-same-page
+https://stackoverflow.com/questions/4762972/how-to-comma-separate-the-values-of-an-array-for-display

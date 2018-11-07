@@ -128,24 +128,24 @@
 
     <?php dump($_GET); ?>
 
-<!--    --><?php //print_r($_GET); ?>
+    <?php
 
-<!--    --><?php
-//
-//    $type = $_GET['type'] ?? null;
-//    $fill = $_GET['fill'] ?? null;
-//
-//    echo 'Type:'. $type;
-//    echo 'Fill:'. $fill; ?>
+    $type = $_GET['type'] ?? null;
+    $fill = $_GET['fill'] ?? null;
+    $beans = $_GET['beans'] ?? null;
+    $rice = $_GET['rice'] ?? null;
+    $veggies = $_GET['veggies'] ?? null;
+    $toppings = $_GET['toppings'] ?? null;
+    $comment = $_GET['comment'] ?? null;
+
+    $results = null;
+
+    ?>
 
     <?php if ($_GET) : ?>
     <br>
     <div class='alert alert-info' role='alert'>
         <h5>Your order has been submitted!</h5>
-
-        <?php $type = $_GET['type'] ?? null;
-        $fill = $_GET['fill'] ?? null;
-        ?>
 
         <h6>Order Details</h6>
 
@@ -158,44 +158,41 @@
                 <td>Fill Selection:</td>
                 <td><?= ucwords($fill) ?></td>
             </tr>
-        </table>
+            <tr>
+                <td>Rice:</td>
+                <td><?= ucwords($rice) ?></td>
+            </tr>
+            <tr>
+                <td>Beans:</td>
+                <td><?= ucwords($beans) ?></td>
+            </tr>
+            <tr>
+                <td>Veggies:</td>
+                <td><?= ucwords($veggies) ?></td>
+            </tr>
+            <tr>
+                <td>Topping:</td>
+                <td> <?php if (!$toppings) {
+                     echo "None";
+                     } else {
+                        echo join(', ', $toppings);
+                        ;
+                     }
+
+                     ?>
+                </td>
+            </tr>
+
+                <tr>
+                <td>Add'l Comments:</td>
+                <td><?= ucwords($comment) ?></td>
+            </tr>
+       </table>
 
     </div>
     <?php endif; ?>
 
-    <?php
-
-//    $toppings = $_GET['toppings'] ?? null;
-//
-//    if ($submitted and $toppings) {
-//        foreach ($topping as $toppings) {
-//            $results .= $toppings . ' ';
-//        }
-//    }
-//    if (empty($toppings)) {
-//        return $commaList = 'None';
-//    } else {
-//        return $commaList = implode(', ', $toppings);
-//    }
-//
-//    echo 'toppings:'.$toppings;
-//
-//        ?>
 
 
 
-
-    {{--<form method="post">--}}
-        {{--Example value: <input name="example" type="text" />--}}
-        {{--Example value 2: <input name="example2" type="text" />--}}
-        {{--<input name="submit" type="submit" />--}}
-    {{--</form>--}}
-
-    {{--<?php--}}
-    {{--if (isset($_POST['submit'])) {--}}
-        {{--$example = $_POST['example'];--}}
-        {{--$example2 = $_POST['example2'];--}}
-        {{--echo $example . " " . $example2;--}}
-    {{--}--}}
-    {{--?>--}}
 @endsection

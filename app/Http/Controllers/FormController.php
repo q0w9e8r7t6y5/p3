@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Redirect;
 use Validator;
 use Illuminate\Http\Request;
 
@@ -59,6 +60,8 @@ class FormController extends Controller
             'lastname' => 'required|alpha',
             'phone' => 'required|digits:10',
         ]);
+
+        return view('order');
 
 //        if ($validator->fails()) {
 //            return view('welcome')->withErrors($validator); // <----- Send the validator here

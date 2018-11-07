@@ -16,28 +16,28 @@
             > Burrito<br>
             <input type='radio'
                    name='type'
-                   value='burrito bowl' > Burrito Bowl<br>
+                   value='burrito bowl'> Burrito Bowl<br>
             <input type='radio'
                    name='type'
-                   value='hard taco' > Hard Shell Taco<br>
+                   value='hard taco'> Hard Shell Taco<br>
             <input type='radio'
                    name='type'
-                   value='soft taco' > Soft Shell Taco<br>
+                   value='soft taco'> Soft Shell Taco<br>
             <input type='radio'
                    name='type'
-                   value='salad' > Salad<br>
+                   value='salad'> Salad<br>
         </fieldset>
         <br>
 
         <fieldset class='fill'>
             <h5>Meat & Tofu Selection</h5>
             <select name='fill' id='fill'>
-                <option value='chicken' >Chicken ($7.95)</option>
-                <option value='carnitas' >Carnitas ($7.95)</option>
-                <option value='steak' >Steak ($7.95)</option>
-                <option value='chorizo' >Chorizo ($7.95)</option>
-                <option value='barbacoa' >Barbacoa ($7.95)</option>
-                <option value='sofritas'  >Sofritas/Tofu ($6.50)</option>
+                <option value='chicken'>Chicken ($7.95)</option>
+                <option value='carnitas'>Carnitas ($7.95)</option>
+                <option value='steak'>Steak ($7.95)</option>
+                <option value='chorizo'>Chorizo ($7.95)</option>
+                <option value='barbacoa'>Barbacoa ($7.95)</option>
+                <option value='sofritas'>Sofritas/Tofu ($6.50)</option>
             </select>
         </fieldset>
         <br>
@@ -48,13 +48,13 @@
             <input type='radio'
                    name='rice'
                    value='White Rice'
-             > White Rice<br>
+            > White Rice<br>
             <input type='radio'
                    name='rice'
-                   value='Brown Rice'  > Brown Rice<br>
+                   value='Brown Rice'> Brown Rice<br>
             <input type='radio'
                    name='rice'
-                   value='None'  > None<br>
+                   value='None'> None<br>
         </fieldset>
         <br>
 
@@ -63,13 +63,13 @@
             <input type='radio'
                    name='beans'
                    value='Black Beans'
-             > Black Beans<br>
+            > Black Beans<br>
             <input type='radio'
                    name='beans'
-                   value='Pinto Beans'  > Pinto Beans<br>
+                   value='Pinto Beans'> Pinto Beans<br>
             <input type='radio'
                    name='beans'
-                   value='None'  > None<br>
+                   value='None'> None<br>
         </fieldset>
         <br>
 
@@ -78,10 +78,10 @@
             <input type='radio'
                    name='veggies'
                    value='Yes'
-             > Yes<br>
+            > Yes<br>
             <input type='radio'
                    name='veggies'
-                   value='No'  > No<br>
+                   value='No'> No<br>
         </fieldset>
         <br>
 
@@ -89,28 +89,28 @@
             <h6>Toppings</h6>
             <input type='checkbox'
                    name='toppings[]'
-                   value='queso'  > Queso<br>
+                   value='queso'> Queso<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='sourcream'  > Sour Cream<br>
+                   value='sourcream'> Sour Cream<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='guac'  > Guacamole<br>
+                   value='guac'> Guacamole<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='mild'  > Mild Red Salsa<br>
+                   value='mild'> Mild Red Salsa<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='medium red salsa'  > Med Red Salsa<br>
+                   value='medium red salsa'> Med Red Salsa<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='medium corn salsa'  > Med Corn Salsa<br>
+                   value='medium corn salsa'> Med Corn Salsa<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='hot salsa'  > Hot Salsa<br>
+                   value='hot salsa'> Hot Salsa<br>
             <input type='checkbox'
                    name='toppings[]'
-                   value='cheese'  > Shredded Cheese<br>
+                   value='cheese'> Shredded Cheese<br>
         </fieldset>
         <br>
 

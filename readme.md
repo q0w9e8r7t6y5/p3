@@ -1,22 +1,30 @@
-# P3
+# Project 3
 + By: *Sishir Yeety*
 + Production URL: <p3.sy-dwa15.me>
 
-# Project 3
-+ By: *your first and last name*
-+ Production URL: <http://p3.yourdomain.com>
-
 ## Outside resources
-*Your list of outside resources go here*
+
+1. Bootstrap Theme: <https://bootswatch.com/spacelab>
+2.
 
 ## 3 Unique inputs
-*You don't have to list all inputs, just 3 unique ones. The following is an example of what I'd put if my project was the xkcd Password Generator: (1) Text input to indicate number of words in password, (2) Checkbox to indicate whether to include a number (3) Dropdown to indicate what symbol to include*
+
+1. Multiple individual text boxes (names, email, phone number)
+2. Multiple groups of radio buttons (type, rice, beans, veggies)
+3. Dropdown menu to specify meat/tofu selection
+4. One large group of checkboxes (toppings)
+5. Text area (bottom of order page) for special instructions
 
 ## Packages
-*List the name of any packages you add to your project that do not come with Laravel by default; this should include, but is not limited to, barryvdh/laravel-debugbar*
+
+1. Only used one package - barryvdh/laravel-debugbar <https://github.com/barryvdh/laravel-debugbar>
 
 ## Code style divergences
-*list any divergences from PSR-1/PSR-2 and course guidelines on code style*
+
+1. No code style divergences from the guidelines. Used phpstorm's reformat code
+function to check.
+2. A few lines of code on some pages went beyond the 80 characters because
+of the injection of php with HTML.
 
 ## Notes for instructor
 *Any notes for me to refer to while grading; if none, omit this section*

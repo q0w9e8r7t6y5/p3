@@ -2,7 +2,6 @@
 
 @section('content')
 
-
     <h6><b>
             Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press confirm to send your order to us!</b>
     </h6>
@@ -125,10 +124,7 @@
 
     </form>
 
-    <?php dump($_GET); ?>
-
     <?php
-
     $type = $_GET['type'] ?? null;
     $fill = $_GET['fill'] ?? null;
     $beans = $_GET['beans'] ?? null;
@@ -136,9 +132,6 @@
     $veggies = $_GET['veggies'] ?? null;
     $toppings = $_GET['toppings'] ?? null;
     $comment = $_GET['comment'] ?? null;
-
-    $results = null;
-
     ?>
 
     <?php if ($_GET) : ?>
@@ -196,12 +189,8 @@
             </tr>
         </table>
 
+    <?php endif; ?>
 
-        <?php endif; ?>
-
-        <br>
-        <form method="get" action="index.php">
-            <button type="submit">Home Page</button>
-        </form>
+    @include('modules.homebar')
 
 @endsection

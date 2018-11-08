@@ -4,7 +4,7 @@
 
 <head>
 
-        <title>P3</title>
+        <title>P3: Online Ordering System</title>
         <meta charset='utf-8'>
         <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
 

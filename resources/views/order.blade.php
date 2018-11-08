@@ -6,6 +6,7 @@
             Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press confirm to send your order to us!</b>
     </h6>
 
+    <br>
     <form method='GET'>
         <fieldset class='type'>
             <h5>Type</h5>

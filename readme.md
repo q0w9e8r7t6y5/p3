@@ -17,6 +17,8 @@
 11. Check if array is empty: <https://stackoverflow.com/questions/2216052/how-to-check-whether-an-array-is-empty-using-php>
 12. Make header redirect to home page: <
 https://stackoverflow.com/questions/34081841/how-to-redirect-to-a-route-in-laravel-5-by-using-href-tag-if-im-not-using-blade>
+13. Custom 404 error page: <https://medium.com/@johann.pardanaud/create-a-default-error-page-with-laravel-ac2b0596290b>
+14. Blade templating: <https://laravel.com/docs/5.7/blade>
 
 
 ## 3 Unique inputs

@@ -2,22 +2,23 @@
 
 
 @section('content')
-    <h6><b>Please enter in your information and press submit to continue to the order page</b></h6><br>
+    <br>
+    <h3>User Registration</h3>
 
-    <h1>Registration</h1>
-
+    <h6><b>Please enter your information and click submit to continue to the order page</b></h6><br>
 
     @if(count($errors) > 0)
         <div class='alert alert-danger' role='alert'>
 
             <ul>
                 @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
+                    <li><b>{{ $error }}</b></li>
                 @endforeach
             </ul>
         </div>
 
     @endif
+
 
     <form method='get' action='form'>
         <fieldset id="$request">
@@ -33,9 +34,9 @@
             <input type='text' name='phone' id='phone' value='{{ old('phone') }}'><br>
         </fieldset>
         <br>
-
         <input type="submit" value="Submit">
     </form>
+
 
 
 @endsection

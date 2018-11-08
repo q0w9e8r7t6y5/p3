@@ -1,20 +1,22 @@
 <!doctype html>
+
 <html lang='en'>
 <head>
-    <title>P3</title>
-    <meta charset='utf-8'>
+    <div class="container">
 
-    {{-- CSS global to every page can be loaded here --}}
-    <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
+        <title>P3</title>
+        <meta charset='utf-8'>
+        {{-- CSS global to every page can be loaded here --}}
+        <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
 
-    {{-- CSS specific to a given page/child view can be included via a stack --}}
-    @stack('head')
-</head>
+        </head>
+@stack('head')
+
 <body>
-
+<br>
 <header>
-    <h2>Sishir Yeety</h2>
-    <h4>Project 3: Food Ordering System (Laravel)</h4><br>
+    <h2>Fast-Casual Mexican Restaurant</h2>
+    <h5><i>Online Ordering System</i></h5>
 </header>
 
 <section>
@@ -22,17 +24,21 @@
 </section>
 
 <footer>
-    <a href='http://github.com/q0w9e8r7t6y5/p3'><i class='fab fa-github'></i> View on Github</a> |
-                                                                                                 &copy; 2018
+    <br>
+    <a href='http://github.com/q0w9e8r7t6y5/p3'><i class='fab fa-github'></i> View on Github</a> |&copy; 2018
 </footer>
 
 {{-- JS global to every page can be loaded here; jQuery included just as an example --}}
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
+        integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa'
+        crossorigin='anonymous'></script>
 
 {{-- JS specific to a given page/child view can be included via a stack --}}
 @stack('body')
 
 </body>
 
+
+</div>
 
 </html>

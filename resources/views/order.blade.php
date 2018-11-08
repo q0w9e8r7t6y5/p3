@@ -3,30 +3,29 @@
 @section('content')
 
 
-    <h6>
-        Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press submit to confirm your order!</b>
+    <h6><b>
+        Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press confirm to send your order to us!</b>
     </h6>
 
-    <form method='get'>
+    <form method='GET'>
         <fieldset class='type'>
-
             <h5>Type</h5>
             <input type='radio'
                    name='type'
                    value='burrito'
-            > Burrito<br>
+            <?php if (!isset($type) or (isset($type) and $type == 'burrito')) echo 'checked' ?>> Burrito<br>
             <input type='radio'
                    name='type'
-                   value='burrito bowl'> Burrito Bowl<br>
+                   value='burrito bowl' <?php if (isset($type) and $type == 'burrito bowl') echo 'checked' ?>> Burrito Bowl<br>
             <input type='radio'
                    name='type'
-                   value='hard taco'> Hard Shell Taco<br>
+                   value='hard taco' <?php if (isset($type) and $type == 'hard taco') echo 'checked' ?>> Hard Shell Taco<br>
             <input type='radio'
                    name='type'
-                   value='soft taco'> Soft Shell Taco<br>
+                   value='soft taco' <?php if (isset($type) and $type == 'soft taco') echo 'checked' ?>> Soft Shell Taco<br>
             <input type='radio'
                    name='type'
-                   value='salad'> Salad<br>
+                   value='salad' <?php if (isset($type) and $type == 'salad') echo 'checked' ?>> Salad<br>
         </fieldset>
         <br>
 
@@ -49,13 +48,13 @@
             <input type='radio'
                    name='rice'
                    value='White Rice'
-            > White Rice<br>
+            <?php if (!isset($rice) or (isset($rice) and $rice == 'White Rice')) echo 'checked' ?>> White Rice<br>
             <input type='radio'
                    name='rice'
-                   value='Brown Rice'> Brown Rice<br>
+                   value='Brown Rice' <?php if (isset($rice) and $rice == 'Brown Rice') echo 'checked' ?>> Brown Rice<br>
             <input type='radio'
                    name='rice'
-                   value='None'> None<br>
+                   value='None' <?php if (isset($rice) and $rice == 'None') echo 'checked' ?>> None<br>
         </fieldset>
         <br>
 
@@ -64,13 +63,13 @@
             <input type='radio'
                    name='beans'
                    value='Black Beans'
-            > Black Beans<br>
+            <?php if (!isset($beans) or (isset($beans) and $beans == 'Black Beans')) echo 'checked' ?>> Black Beans<br>
             <input type='radio'
                    name='beans'
-                   value='Pinto Beans'> Pinto Beans<br>
+                   value='Pinto Beans' <?php if (isset($beans) and $beans == 'Pinto Beans') echo 'checked' ?>> Pinto Beans<br>
             <input type='radio'
                    name='beans'
-                   value='None'> None<br>
+                   value='None' <?php if (isset($beans) and $beans == 'None') echo 'checked' ?>> None<br>
         </fieldset>
         <br>
 
@@ -79,10 +78,10 @@
             <input type='radio'
                    name='veggies'
                    value='Yes'
-            > Yes<br>
+            <?php if (!isset($veggies) or (isset($veggies) and $veggies == 'Yes')) echo 'checked' ?>> Yes<br>
             <input type='radio'
                    name='veggies'
-                   value='No'> No<br>
+                   value='No' <?php if (isset($veggies) and $veggies == 'No') echo 'checked' ?>> No<br>
         </fieldset>
         <br>
 
@@ -122,11 +121,9 @@
 
         <br>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Place Order!">
 
     </form>
-
-    <?php dump($_GET); ?>
 
     <?php
 
@@ -138,7 +135,7 @@
     $toppings = $_GET['toppings'] ?? null;
     $comment = $_GET['comment'] ?? null;
 
-    $results = null;
+    $toppings = null;
 
     ?>
 
@@ -186,10 +183,6 @@
             </tr>
             <tr>
                 <td>Total (with tax):</td>
-                <td><?php echo "test"; ?></td>
-            </tr>
-            <tr>
-                <td>Total (with tax):</td>
                 <td>
                     <?php if ($fill == "sofritas") {
                         echo "$6.50";
@@ -203,5 +196,10 @@
 
     </div>
     <?php endif; ?>
+
+    <br>
+    <form method="get" action="index.php">
+        <button type="submit">Home Page</button>
+    </form>
 
 @endsection

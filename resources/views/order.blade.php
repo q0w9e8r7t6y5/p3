@@ -167,7 +167,7 @@
             </tr>
             <tr>
                 <td>Veggies:</td>
-                <td><?= ucwords($veggies) ?></td>
+                <td>{{ ucwords($veggies) }}</td>
             </tr>
             <tr>
                 <td>Topping:</td>

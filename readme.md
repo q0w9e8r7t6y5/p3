@@ -5,7 +5,19 @@
 ## Outside resources
 
 1. Bootstrap Theme: <https://bootswatch.com/spacelab>
-2.
+2. Laravel Validation/request example: <https://www.youtube.com/watch?v=qBtujLPbNas>
+3. View redirections: <https://stackoverflow.com/questions/41559163/header-may-not-contain-more-than-a-single-header-new-line-detected-on-return-vi>
+4. Redirect with messages/variables: <https://stackoverflow.com/questions/24389726/laravel-redirecting-user-to-another-page-with-messages>
+5. Redirect inside views: <https://laravel.io/forum/11-28-2014-how-to-use-return-redirect-inside-view>
+6. Validation example: <https://laravel.io/forum/12-11-2015-how-to-implement-laravel-request-validation>
+7. Send variable from one controller to another: <https://stackoverflow.com/questions/51305825/how-to-pass-a-variable-from-one-controller-to-another-laravel>
+8. Showing POST values on same page: <https://stackoverflow.com/questions/14595810/use-post-to-get-input-values-on-the-same-page>
+9. Array into comma'd values: <https://stackoverflow.com/questions/4762972/how-to-comma-separate-the-values-of-an-array-for-display>
+10. Print array: <https://stackoverflow.com/questions/5528097/how-can-i-print-all-the-values-of-an-array>
+11. Check if array is empty: <https://stackoverflow.com/questions/2216052/how-to-check-whether-an-array-is-empty-using-php>
+12. Make header redirect to home page: <
+https://stackoverflow.com/questions/34081841/how-to-redirect-to-a-route-in-laravel-5-by-using-href-tag-if-im-not-using-blade>
+
 
 ## 3 Unique inputs
 
@@ -28,16 +40,3 @@ of the injection of php with HTML.
 
 ## Notes for instructor
 *Any notes for me to refer to while grading; if none, omit this section*
-
-
-https://www.youtube.com/watch?v=qBtujLPbNas
-https://stackoverflow.com/questions/41559163/header-may-not-contain-more-than-a-single-header-new-line-detected-on-return-vi
-https://stackoverflow.com/questions/24389726/laravel-redirecting-user-to-another-page-with-messages
-https://laravel.io/forum/11-28-2014-how-to-use-return-redirect-inside-view
-https://laravel.io/forum/12-11-2015-how-to-implement-laravel-request-validation
-https://stackoverflow.com/questions/51305825/how-to-pass-a-variable-from-one-controller-to-another-laravel
-https://stackoverflow.com/questions/14595810/use-post-to-get-input-values-on-the-same-page
-https://stackoverflow.com/questions/4762972/how-to-comma-separate-the-values-of-an-array-for-display
-https://stackoverflow.com/questions/5528097/how-can-i-print-all-the-values-of-an-array
-https://stackoverflow.com/questions/2216052/how-to-check-whether-an-array-is-empty-using-php
-https://stackoverflow.com/questions/34081841/how-to-redirect-to-a-route-in-laravel-5-by-using-href-tag-if-im-not-using-blade

@@ -4,7 +4,7 @@
 
 
     <h6><b>
-        Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press confirm to send your order to us!</b>
+            Please pick your dish type, meat/tofu selection, and toppings. If there are any special instructions, put them in the textbox and press confirm to send your order to us!</b>
     </h6>
 
     <form method='GET'>
@@ -125,6 +125,8 @@
 
     </form>
 
+    <?php dump($_GET); ?>
+
     <?php
 
     $type = $_GET['type'] ?? null;
@@ -135,7 +137,7 @@
     $toppings = $_GET['toppings'] ?? null;
     $comment = $_GET['comment'] ?? null;
 
-    $toppings = null;
+    $results = null;
 
     ?>
 
@@ -149,19 +151,19 @@
         <table>
             <tr>
                 <td>Type:</td>
-                <td><?= ucwords($type) ?></td>
+                <td>{{ ucwords($type) }}</td>
             </tr>
             <tr>
                 <td>Fill Selection:</td>
-                <td><?= ucwords($fill) ?></td>
+                <td>{{ ucwords($fill) }}</td>
             </tr>
             <tr>
                 <td>Rice:</td>
-                <td><?= ucwords($rice) ?></td>
+                <td>{{ ucwords($rice) }}</td>
             </tr>
             <tr>
                 <td>Beans:</td>
-                <td><?= ucwords($beans) ?></td>
+                <td>{{ ucwords($beans) }}</td>
             </tr>
             <tr>
                 <td>Veggies:</td>
@@ -179,7 +181,7 @@
             </tr>
             <tr>
                 <td>Add'l Comments:</td>
-                <td><?= ucwords($comment) ?></td>
+                <td>{{ ucwords($comment) }}</td>
             </tr>
             <tr>
                 <td>Total (with tax):</td>
@@ -194,12 +196,12 @@
             </tr>
         </table>
 
-    </div>
-    <?php endif; ?>
 
-    <br>
-    <form method="get" action="index.php">
-        <button type="submit">Home Page</button>
-    </form>
+        <?php endif; ?>
+
+        <br>
+        <form method="get" action="index.php">
+            <button type="submit">Home Page</button>
+        </form>
 
 @endsection

@@ -41,4 +41,7 @@ function to check.
 of the injection of php with HTML.
 
 ## Notes for instructor
-*Any notes for me to refer to while grading; if none, omit this section*
+
+1. Same as p2, but in Laravel. Used given feedback to improve it
+2. If you run w3validation off the local server, script tags have to be ommited because
+they contain code for the debug toolbar. Throws everything off.

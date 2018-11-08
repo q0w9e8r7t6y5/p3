@@ -1,13 +1,11 @@
 <!doctype html>
 
 <html lang='en'>
-<div class="container">
 
 <head>
 
         <title>P3</title>
         <meta charset='utf-8'>
-        {{-- CSS global to every page can be loaded here --}}
         <link rel='stylesheet' href='https://bootswatch.com/4/spacelab/bootstrap.min.css' type='text/css'>
 
 </head>
@@ -40,8 +38,5 @@
 @stack('body')
 
 </body>
-
-
-</div>
 
 </html>

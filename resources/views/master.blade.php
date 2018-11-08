@@ -15,7 +15,9 @@
 <body>
 <br>
 <header>
+    <a href="{{ url('') }}">
     <h2>Fast-Casual Mexican Restaurant</h2>
+    </a>
     <h5><i>Online Ordering System</i></h5>
 </header>
 

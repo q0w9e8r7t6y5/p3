@@ -32,3 +32,4 @@ https://stackoverflow.com/questions/14595810/use-post-to-get-input-values-on-the
 https://stackoverflow.com/questions/4762972/how-to-comma-separate-the-values-of-an-array-for-display
 https://stackoverflow.com/questions/5528097/how-can-i-print-all-the-values-of-an-array
 https://stackoverflow.com/questions/2216052/how-to-check-whether-an-array-is-empty-using-php
+https://stackoverflow.com/questions/34081841/how-to-redirect-to-a-route-in-laravel-5-by-using-href-tag-if-im-not-using-blade

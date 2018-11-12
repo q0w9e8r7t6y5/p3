@@ -7,13 +7,12 @@
 *Answer the following questions in regards to the student's project you are reviewing. REMOVE THE INSTRUCTIONS FOR EACH PROMPT when complete. We should only see YOUR ANSWERS.*
 
 ## 1. Interface
-Address as many of the following points as applicable:
 
-+ What are your initial impressions of the site interface?
-+ Were there any parts of the interface that you found confusing, or did not work as you expected?
-+ Were there any parts of the interface that you thought worked notably well?
-+ Do you have any suggestions for improvements on the interface?
-
++ Initial impressions were very positive. Site layout is clean and understandable. I even loaded it up on my mobile device, and the interface worked well there too. I particularly liked the top banner graphic. Not sure if the reviewee actually developed that for this project, but it works really well with the interface.
++ There were no parts of the interface that I found confusing or did not work as I expected. I was a little confused on what the website did exactly, but after doing some background research on race training, I was able to figure it out. This was more an issue with me, than an issue with the project.
++ One part of the interface that I thought worked really well was how well laid out everything was. There is no
+clutter or excess anywhere. There is a simple banner at the top and quick text inputs to calculate exactly what needs to be done.
++ Suggestions. The layout itself is very simple and clean, but a little bland. I think a great version 2.0 of this site would be to add a more visually appealing UI with some bootstrap dropdown bars/buttons/up+down arrows. I also didn't like the border around everything underneath the header graphic. That with the footer line at the bottom clutters up, an otherwise, really clean interface.
 
 ## 2. Functional testing
 One challenge of developing software is thinking of all the unexpected ways users might interact with our applications. It's easy to develop &ldquo;blinders&rdquo; to methods of interaction because we know so much about *how* our application works, and so we have a hard time imagining how our interfaces might be misinterpreted. Thus, it can be useful to have an outsider rigorously test our applications with the explicit intention of trying to break it.

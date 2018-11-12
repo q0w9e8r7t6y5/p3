@@ -62,4 +62,4 @@ __Summarize what you tried, and describe any unexpected/undesirable outcomes.__
 ## 6. Misc
 
 + It was a pleasure to read through your code and learn a few things from someone who seems to be more proficient than I am.
-+ I think you did a great job with the project and followed all the requirements properly. The only suggestions I have for improvements is a UI overhaul with bootstrap. Other than that, nice job!
++ I think you did a great job with the project and followed all the requirements properly. The only suggestions I have for improvements is a UI overhaul with bootstrap. Other than that, nice job and good luck for the rest of the semester!

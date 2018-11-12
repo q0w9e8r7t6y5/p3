@@ -4,8 +4,6 @@
 + Reviwee's name:  Sandra Anderson
 + URL to Reviewe's P3 Github Repo URL: *<https://github.com/SandiAnderson/p3>*
 
-*Answer the following questions in regards to the student's project you are reviewing. REMOVE THE INSTRUCTIONS FOR EACH PROMPT when complete. We should only see YOUR ANSWERS.*
-
 ## 1. Interface
 
 + Initial impressions were very positive. Site layout is clean and understandable. I even loaded it up on my mobile device, and the interface worked well there too. I particularly liked the top banner graphic. Not sure if the reviewee actually developed that for this project, but it works really well with the interface.

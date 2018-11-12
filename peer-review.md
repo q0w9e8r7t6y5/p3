@@ -49,19 +49,17 @@ __Summarize what you tried, and describe any unexpected/undesirable outcomes.__
 + There are no separation of concerns on any view files. Everything that needed to be in blade is in blade.
 + Everything in PHP that can be done in blade was done in blade properly.
 + They did not use any syntax/techniques that were unfamiliar with me, however they seem to be more experienced with blade (especially with the amount of template inheritance that was done) than me. For example, they were able to put pretty much everything into Blade. I personally had some issues trying to format some php code into Blade and getting it to display properly.
-+ They even used multi-dimensional arrays in Blade (as talked about in their readme). That was unfamiliar to me. 
++ They even used multi-dimensional arrays in Blade (as talked about in their readme). That was unfamiliar to me.
 
 ## 5. Code: General
 
-+ All code looks correctly formatted, properly commented, and cleanly done. All proper techniques from class were used.
-
-Address as many of the following points as applicable:
-
-+ Do you notice any inconsistencies between the code and the course notes on [code style](https://github.com/susanBuck/dwa15-fall2018/blob/master/misc/code-style.md)?
-+ Are there any best practices discussed in course material that you feel were not addressed in the code?
-+ Are there aspects of the code that you feel were not self-evident and would benefit from comments?
-+ Are there any parts of the code that you found interesting/would not have thought to do yourself?
-+ Are there any parts of the code that you don't understand?
++ All code looks correctly formatted, properly commented, and cleanly done.
++ All proper techniques from class were used. No inconsistencies to note from the course notes, other than some lines going above the character limit, but that was noted in the readme and didn't seem to be avoidable.
++ Comments in the controller file were very useful to me. Thanks for that!
++ The part of their code that I was found the most interesting and took me a little time to figure out was how advanced their blade templating and blade code was. As I said in the previous section, I struggled a little to try to get everything to display properly and get into sub-views. I was not familiar with some of the techniques (multi-dimensional arrays) and need a little more practice myself, but this user seems to be very proficient with it.
++ After looking through this project, I realized that I could improve my own code tremendously, especially when it comes to formatting, code clarity, and code logic. Another thing was the Blade Templating.
 
 ## 6. Misc
-Do you have any additional comments not covered in the above questions?
+
++ It was a pleasure to read through your code and learn a few things from someone who seems to be more proficient than I am.
++ I think you did a great job with the project and followed all the requirements properly. The only suggestions I have for improvements is a UI overhaul with bootstrap. Other than that, nice job!

@@ -14,8 +14,6 @@ clutter or excess anywhere. There is a simple banner at the top and quick text i
 
 ## 2. Functional testing
 
-__Summarize what you tried, and describe any unexpected/undesirable outcomes.__
-
 + First thing I did was put all the pages through the w3validator. No errors anywhere!
 + I accessed it using Safari on my iOS device. All pages loaded and worked as expected.
 + I tried accessing the website on my computer using two different browsers; Safari and Chrome. No differences to the website between the two.

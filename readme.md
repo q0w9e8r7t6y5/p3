@@ -1,6 +1,6 @@
 # Project 3
 + By: *Sishir Yeety*
-+ Production URL: <https://p3.sy-dwa15.me>
++ Production URL: <http://p3.sy-dwa15.me>
 
 ## Outside resources
 
@@ -45,4 +45,4 @@ of the injection of php with HTML.
 1. Same as p2, but in Laravel. Used given feedback to improve it
 2. If you run w3validation off the local server, script tags have to be ommited because
 they contain code for the debug toolbar. Throws everything off.
-3. Added custom 404 error page. Can test it by going to a directory that doesn't exist. 
+3. Added custom 404 error page. Can test it by going to a directory that doesn't exist.

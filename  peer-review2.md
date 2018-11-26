@@ -1,8 +1,8 @@
 ## P3 Peer Review
 
-+ Reviewer's name:
-+ Reviwee's name:
-+ URL to Reviewe's P3 Github Repo URL: *<https://github.com/example/p3>*
++ Reviewer's name: Sishir Yeety
++ Reviwee's name: Sudhir Bhargava
++ URL to Reviewe's P3 Github Repo URL: *<https://github.com/Sud-B/p3>*
 
 *Answer the following questions in regards to the student's project you are reviewing. REMOVE THE INSTRUCTIONS FOR EACH PROMPT when complete. We should only see YOUR ANSWERS.*
 

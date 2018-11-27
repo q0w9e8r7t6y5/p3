@@ -60,4 +60,4 @@ I didn't understand some parts of the code, so I had to go and look it up. They 
 ## 6. Misc
 
 + It was a pleasure to read through your code and learn a few things from someone who seems to be more advanced than me, inside the Controller file, for example.
-+ I think you did a great job with the project and followed all the requirements properly. The only suggestions I have for improvements is comments across your code and fix the small issues, such as the validation issues and redundant/extraneous view files. Other than that, great job! Good luck for the rest of the semester.
++ I think you did a great job with the project and followed all the requirements properly. The only suggestions I have for improvements is comments across your code and fix the small issues, such as the validation issues (especially the non-integer number values issue in the first field) and redundant/extraneous view files. Other than that, great job! Good luck for the rest of the semester.

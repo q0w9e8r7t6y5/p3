@@ -2,7 +2,7 @@
 
 + Reviewer's name: Sishir Yeety
 + Reviwee's name: Steve Cordova
-+ URL to Reviewe's P3 Github Repo URL: *<http://p3.stevecordova.me>*
++ URL to Reviewe's P3 Github Repo URL: *<https://github.com/cordovas/p3>*
 
 *Answer the following questions in regards to the student's project you are reviewing. REMOVE THE INSTRUCTIONS FOR EACH PROMPT when complete. We should only see YOUR ANSWERS.*
 
